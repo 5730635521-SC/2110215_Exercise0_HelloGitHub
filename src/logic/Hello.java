@@ -1,5 +1,7 @@
 package logic;
 
+import java.util.Arrays;
+
 public class Hello {
 
 	public static void main(String[] args) {
@@ -14,12 +16,11 @@ public class Hello {
 	}
 
 	public static String greetingMessage(){
-		// TODO Implement this method to return string "Hello GitHub".
 		return "Hello Github";
 	}
 	
 	public static int[] bubbleSort(int[] array){
-		// TODO Implement this method to sort the given array in an ascending order and return the sorted array.
+		Arrays.sort(array);
 		return array;
 	}
 	
